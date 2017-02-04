@@ -1,0 +1,102 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.titulo {
+	font-size: 70px;
+	line-height: 90px;
+	margin-bottom: 0;
+	margin-top: 70px;
+}
+
+.descripcion {
+	font-size: 25px;
+	margin-top: 0;
+}
+
+.title_toy{
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+
+.juguetes {
+	color: #302c5f;
+}
+
+.juguetes h2{
+	font-size: 35px;
+}
+
+.portada {
+	background: #7f0dff;
+	color: #ffffff;
+	padding: 20px;
+}
+
+.menu {
+	color: #ffffff;
+	font-size: 25px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.menu li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.logotipo {
+	display: inline-block;
+}
+
+.portada button {
+	color: #FFFFFF;
+	background-color: #FFC107;
+	margin-bottom: 70px;
+	border-radius: 8px;
+	border: none;
+	padding: 7px;
+}
+
+.header {
+	position: relative;
+}
+
+.contenedor {
+	width: 800px;
+	margin: auto;
+}
+
+.toy_left {
+	float: left;
+	position: relative;
+	top: 5px;
+}
+
+.toy_right {
+	float: right;
+	position: relative;
+	top: -65px;
+}
+
+.toy {
+	border: 1px solid #302c5f;
+	padding: 10px;
+	margin: 10px;
+	height: 280px;
+	border-radius: 25px 20px 15px 10px;
+}
+
+.contenedor-toy-left {
+	margin-left: 440px;
+}
+
+.contenedor-toy-right {
+	padding-left: 160px;
+}
+
+.toy div ol {
+	padding: 0;
+}
