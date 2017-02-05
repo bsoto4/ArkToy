@@ -7,7 +7,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-	<section id="portada" class="portada">
+	<div class="header-precios">
 		<header id="header" class="header contenedor">
 			<figure class="logotipo">
 				<img src="images/logo.png" alt="logo" width="150">		
@@ -15,46 +15,51 @@
 			<nav class="menu">
 				<ul>
 					<li><a href="index.html" title="Inicio">Inicio</a></li>
-					<li><a href="#juguetes" title="Juguetes">Juguetes</a></li>
+					<li><a href="index.html#juguetes" title="Juguetes">Juguetes</a></li>
 					<li><a href="precios.html" title="Precios">Precios</a></li>
 				</ul>
 			</nav>
 		</header>
+	</div>
+	<section class="tabla">
 		<div class="contenedor">
-			<h1 class="titulo">Juguetes de <span>colección</span></h1>
-			<h3 class="descripcion">Tenemos lo que buscas</h3>
-			<a href="#juguetes" class="button">Descúbrelo aqui</a>
+			<table>
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Precio</th>
+						<th>Descripcion</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Yoda</td>
+						<td>s/140</td>
+						<td>Legendario maestro Jedi</td>
+					</tr>
+					<tr>
+						<td>R2D2</td>
+						<td>s/200</td>
+						<td>Droide astromecánico</td>
+					</tr>
+					<tr>
+						<td>Yoda</td>
+						<td>s/140</td>
+						<td>Legendario maestro Jedi</td>
+					</tr>
+					<tr>
+						<td>R2D2</td>
+						<td>s/200</td>
+						<td>Droide astromecánico</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
-	</section>
-	<section id="juguetes" class="juguetes contenedor">
-		<h2>Nuestro inventario</h2>
-		<article class="toy">
-			<img class="toy_right" src="images/yoda.png" alt="yoda" width="250">
-			<div class="contenedor-toy-right">
-				<h3 class="title_toy">YODA</h3>
-				<ol>
-					<li>Legendario maestro Jedi</li>
-					<li>Muñeco articulable</li>
-					<li>Mide 30cm de alto</li>
-				</ol>
-			</div>
-		</article>
-		<article class="toy">
-			<img class="toy_left" src="images/r2d2.png" alt="r2d2" width="300">
-			<div class="contenedor-toy-left">
-				<h3 class="title_toy">R2D2</h3>
-				<ol>
-					<li>Droide astromecánico</li>
-					<li>Movimiento dirigido por bluetooh</li>
-					<li>Mide 25cm de alto</li>
-				</ol>
-			</div>
-		</article>
 	</section>
 	<footer class="footer">
 		<div class="contenedor">
 			<div class="contacto">
-				<img src="images/logo.png" alt="logo" width="300" height="100">
+				<img src="images/logo.png" alt="logo" width="300">
 				<a href="tel:+51999036727"><strong>Teléfono</strong><span>999036727</span></a>
 				<a href="mailto:bsoto.dev@gmail.com"><strong>E-mail</strong><span>bsoto.dev@gmail.com</span></a>
 			</div>

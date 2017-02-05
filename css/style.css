@@ -7,7 +7,6 @@ body{
 	font-size: 70px;
 	line-height: 90px;
 	margin-bottom: 0;
-	margin-top: 70px;
 }
 
 .descripcion {
@@ -22,6 +21,7 @@ body{
 
 .juguetes {
 	color: #302c5f;
+	padding-top: 1px;
 }
 
 .juguetes h2{
@@ -31,7 +31,9 @@ body{
 .portada {
 	background: #7f0dff;
 	color: #ffffff;
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 90px;
+	height: 350px;
 }
 
 .menu {
@@ -49,19 +51,32 @@ body{
 
 .logotipo {
 	display: inline-block;
+	margin-left: 0;
 }
 
-.portada button {
+.contenedor a {
+	text-decoration: none;
+}
+
+.button {
 	color: #FFFFFF;
 	background-color: #FFC107;
-	margin-bottom: 70px;
 	border-radius: 8px;
 	border: none;
 	padding: 7px;
+	font-size: 18px;
+	cursor: pointer;
+	background: linear-gradient(to left, #FFC107, #ECBB28);
 }
 
 .header {
 	position: relative;
+}
+
+.header-precios {
+	background: #7f0dff;
+	padding-top: 20px;	
+	padding-bottom: 20px;
 }
 
 .contenedor {
@@ -82,9 +97,9 @@ body{
 }
 
 .toy {
-	border: 1px solid #302c5f;
-	padding: 10px;
-	margin: 10px;
+	border: 3px solid #302c5f;
+	padding: 15px;
+	margin: 15px 15px 0 0;
 	height: 280px;
 	border-radius: 25px 20px 15px 10px;
 }
@@ -99,4 +114,102 @@ body{
 
 .toy div ol {
 	padding: 0;
+}
+
+.footer {
+	background-color: #7f0dff;
+	margin-top: 30px;
+}
+
+.contacto {
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.contacto img {
+	display: block;
+}
+
+.contacto strong {
+	display: block;
+}
+
+.contacto a {
+	color: #ffffff;
+	text-decoration: none;
+	margin: 10px 10px 10px 10px;
+}
+
+.footer .contenedor {
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario {
+	display: flex;
+	width: 450px;
+	color: #FFFFFF;
+	padding:50px 10px;
+}
+
+.datos, .comentarios{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.datos {
+	margin-right: 15px;
+}
+
+.intereses {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.intereses label {
+	font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses {
+	margin-top: 10px;
+}
+
+.sexo {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.comentarios {
+	align-items: flex-start;
+}
+
+table {
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+th {
+	background-color: #7f0dff;
+	color: #FFFFFF;
+	padding: 10px;
+	text-align: left;
+}
+
+td {
+	padding: 20px;
+}
+
+table,td ,th {
+	border: 1px solid #7f0dff;
+	border-collapse: collapse;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: #ffffff;
 }
